@@ -1,0 +1,160 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffffff;
+    color:#f2e9e4;
+    /* background-color: #6d597a; */
+}
+.logo{
+    position: relative;
+    width: 3%;
+    height: 3%;
+    /* background-color: #f2e9e4; */
+}
+.nav-text{
+    color: #ffffff;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* splash screen css starts here  */
+#loading{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff url("https://media.giphy.com/media/y1ZBcOGOOtlpC/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #f2e9e4!important;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    font-size: 1.5rem;
+    color: #1f2020!important;
+    margin-left: .5rem;
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link{margin: 5px;
+    color: rgb(102, 98, 116)!important;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ #nl1,.nav-link:hover{
+
+    background-color: #accd47;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 80vh;
+    background-color: #fcfcfce1;
+    color: #000000;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 60vh;
+    width: 100%;
+}
+
+.navebar-toggler-icon, .navbar-toggler, .collapsed{
+    color:#f2e9e4;
+    background-color: #f2e9e4;
+}
+.collapsed:hover{
+    color:#f2e9e4;
+    background-color: #f2e9e4;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #accd47;
+    color: #000000!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #757050e1;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 40vh;
+    background-color: #746a67;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #ffffff;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #989898;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #fdfdfd;
+}
+
+.linkedin{
+    color: #bccad2;
+}
+
+.google{
+    color: #ffffff;
+}
+.portfolio{
+    color: #ffffff;
+    
+}
+/* footer css ends here  */

@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#699287;
+    color:#fdfdfd
+}
+
+/* navbar css starts here  */
+.bg-light{ background-color: #abc4aa!important;
+    /* background-color: #f2e9e4!important; */
+}
+
+.navbar-brand{
+    /* font-family: 'Sansita Swashed', cursive; */
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    color: rgb(255, 255, 255)   !important;
+}
+.nav-text{
+    color: #ffffff;
+    font-family: 'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-link{
+    margin: 5px;
+    color: rgb(186, 186, 186)!important;
+    font-family:'Poppins', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#nl2 ,.nav-link:hover{
+    background-color: #accd47;
+}
+.logo{
+    position: relative;
+    width: 3%;
+    height: 3%;
+    /* background-color: #f2e9e4; */
+}
+.navebar-toggler-icon, .navbar-toggler, .collapsed{
+    color:#f2e9e4;
+    background-color: #f2e9e4;
+}
+.collapsed:hover{
+    color:#f2e9e4;
+    background-color: #f2e9e4;
+}
+/* navbar css ends here  */
+
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.modal-content{
+    background-color: #252e38;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    border-radius: 15px 1px 15px 1px!important;
+    background-color: #85bcbd!important;
+    color: #000000!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #accd47!important;
+    border-radius: 1px 15px 1px 15px!important;
+}
+
+.table-success{
+    background-color: #fcfcfc!important;
+    color: #000000;
+}
+.table-success, .table-success>td, .table-success>th {
+    background-color: #ffffff;
+}
+
+#enterName.form-control, #enterAmount.form-control, .input-group-text, #bt1{
+    color: #fff;
+}
+
+.table-hover .table-success:hover, .table-hover .table-success:hover>td, .table-hover .table-success:hover>th {
+    background-color: #85bcbd;
+}
+footer{
+    background-color:  #989898;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #fdfdfd;
+}
+
+.linkedin{
+    color: #0ba8fd;
+}
+
+.google{
+    color: #ffffff;
+}
+.portfolio{
+    color: #ffffff;
+    
+}
